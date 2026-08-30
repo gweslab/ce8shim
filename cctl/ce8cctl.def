@@ -1,0 +1,7 @@
+LIBRARY ce8cctl
+EXPORTS
+    CommandBar_Create = CerfCctlStub_0 @3
+    CommandBar_Show = CerfCctlStub_1 @4
+    CommandBar_AddBitmap = CerfCctlStub_2 @5
+    CommandBar_InsertMenubar = CerfCctlStub_3 @8
+    CommandBar_AddAdornments = CerfCctlStub_4 @10

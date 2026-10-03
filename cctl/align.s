@@ -51,5 +51,35 @@ CerfCctlStub_4
     ldr     r12, [r12, #16]
     b       CerfCctlAlignCall
 
+    EXPORT  CerfCctlStub_5
+CerfCctlStub_5
+    ldr     r12, =g_CerfCctlTargets
+    ldr     r12, [r12, #20]
+    b       CerfCctlAlignCall
+
+    EXPORT  CerfCctlStub_6
+CerfCctlStub_6
+    ldr     r12, =g_CerfCctlTargets
+    ldr     r12, [r12, #24]
+    b       CerfCctlAlignCall
+
+    EXPORT  CerfCctlStub_7
+CerfCctlStub_7
+    ldr     r12, =g_CerfCctlTargets
+    ldr     r12, [r12, #28]
+    b       CerfCctlAlignCall
+
+    EXPORT  CerfCctlStub_8
+CerfCctlStub_8
+    ldr     r12, =g_CerfCctlTargets
+    ldr     r12, [r12, #32]
+    b       CerfCctlAlignCall
+
+    EXPORT  CerfCctlStub_9
+CerfCctlStub_9
+    ldr     r12, =g_CerfCctlTargets
+    ldr     r12, [r12, #36]
+    b       CerfCctlAlignCall
+
     LTORG
     END

@@ -5,3 +5,8 @@ EXPORTS
     CommandBar_AddBitmap = CerfCctlStub_2 @5
     CommandBar_InsertMenubar = CerfCctlStub_3 @8
     CommandBar_AddAdornments = CerfCctlStub_4 @10
+    InitCommonControls = CerfCctlStub_5 @1
+    CommandBar_GetMenu = CerfCctlStub_6 @9
+    CommandBar_Height = CerfCctlStub_7 @12
+    IsCommandBarMessage = CerfCctlStub_8 @13
+    CommandBar_DrawMenuBar = CerfCctlStub_9 @43
